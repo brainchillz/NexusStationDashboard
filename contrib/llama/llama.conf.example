@@ -1,0 +1,6 @@
+# /etc/llama.conf — sourced by /usr/local/bin/llama-server.sh.
+# The dashboard's LLama.cpp page rewrites LLAMA_MODEL and LLAMA_OPTS here (every
+# value validated first). Set LLAMA_BIN to your llama-server binary once.
+LLAMA_BIN=/usr/local/llama.cpp/llama-server
+LLAMA_MODEL=/usr/share/models/your-model-Q4_K_M.gguf
+LLAMA_OPTS="--host 0.0.0.0 --port 8080 --threads 8 --ctx-size 4096 --metrics"

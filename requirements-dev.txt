@@ -1,0 +1,4 @@
+# Development / test dependencies (NOT needed at runtime).
+# Install into the app's venv:  /opt/storage-dashboard/venv/bin/pip install -r requirements-dev.txt
+# Run the suite:                /opt/storage-dashboard/venv/bin/python -m pytest tests/ -q
+pytest>=7
